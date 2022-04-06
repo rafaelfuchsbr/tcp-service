@@ -6,7 +6,7 @@ In this page you can find more information about the TCP Service exercise.
 
 In the following pages you can find more about the solution, next steps and recommendations/discussions about the architecture.
 
-- [Initial solutions](initial_solution.md)
+- [Initial solution](initial_solution.md)
 - [Recommendations](recommendations.md)
 
 ## Software Development
