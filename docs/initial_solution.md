@@ -87,6 +87,8 @@ go run cmd/client/client.go -host=127.0.0.1 -port=9999 -clients=4 -iterations=3 
 
 To test the service, you can use the client provided in this repo according to the documentation on this page.
 
+Unit tests were not written on purpose, due to time constraints. For a production service, unit tests and integration tests would be mandatory.
+
 ## Next steps
 
 ### CI/CD
