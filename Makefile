@@ -3,15 +3,19 @@ ifndef PORT
 endif
 
 start-server: build-server
-	@./server -port=$(PORT)
+	@./bin/server -port=$(PORT)
 
 run-client: build-client
-	@./client $(OPTS)
+	@./bin/client $(OPTS)
 
 build: build-server build-client
 
 build-server:
+	@mkdir -p ./bin
 	@go build cmd/server/server.go
+	@mv server ./bin/*
 
 build-client:
+	@mkdir -p ./bin
 	@go build cmd/client/client.go
+	@mv client ./bin/*
