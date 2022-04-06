@@ -1,5 +1,14 @@
 # TCP Service Exercise
 
+In this page you can find more information about the TCP Service exercise.
+
+## Solutions
+
+In the following pages you can find more about the solution, next steps and recommendations/discussions about the architecture.
+
+- [Initial solutions](initial_solution.md)
+- [Recommendations](recommendations.md)
+
 ## Software Development
 
 You are tasked with starting a new project. You have received the following list of requirements from our product team.
