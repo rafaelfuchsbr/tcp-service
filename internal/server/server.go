@@ -63,7 +63,7 @@ func (s *Server) start() error {
 					return
 				}
 				if err != nil {
-					log.Println("Error handling connection %w", err)
+					log.Println(fmt.Errorf("Error handling connection %w", err))
 				}
 			}
 		}(connection)

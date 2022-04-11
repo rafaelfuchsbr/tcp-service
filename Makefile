@@ -13,9 +13,9 @@ build: build-server build-client
 build-server:
 	@mkdir -p ./bin
 	@go build cmd/server/server.go
-	@mv server ./bin/*
+	@mv server ./bin/
 
 build-client:
 	@mkdir -p ./bin
 	@go build cmd/client/client.go
-	@mv client ./bin/*
+	@mv client ./bin/

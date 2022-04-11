@@ -18,7 +18,7 @@ type Processor interface {
 
 func NewCommand(input string) (Processor, error) {
 
-	input = strings.TrimSuffix(input, "\n")
+	input = strings.Trim(input, " \n\r")
 
 	log.Println(fmt.Sprintf("Got command [%s] - generating new command object", input))
 
