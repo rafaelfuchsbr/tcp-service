@@ -9,6 +9,11 @@ Each connection request will be processed in a separate goroutine (similar to co
 
 For simplicity of implementation, the service will read the input until it finds a new line (`\n`) and it will also send a response back with a new line as the signal for the end of the response.
 
+## Requirements
+
+To run this service, you will need Golang 17.x+. It may work on previous versions, but it was not tested.
+Installation instructions are [here](https://go.dev/doc/install).
+
 ## Supported commands
 
 - `WHO`: Outputs the total number of clients connected.
